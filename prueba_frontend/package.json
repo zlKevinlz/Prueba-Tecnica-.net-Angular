@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "@angular/animations": "^15.0.0 || ^16.0.0",
-    "@angular/cdk": "^15.1.0",
-    "@angular/forms": "^15.0.0 || ^16.0.0",
-    "@angular/material": "^15.1.0",
-    "bootstrap": "^5.3.0-alpha1"
-  }
-}
