@@ -39,7 +39,6 @@ export class UsersComponent implements OnInit {
     });
 
     this._usersService.getInformation(this.user.repos_url).subscribe( (response:any ) => {
-      console.log(response)
       if(response.length != 0){
         this.user.repos = response;
       }else{
@@ -48,7 +47,6 @@ export class UsersComponent implements OnInit {
     })
 
     this._usersService.getInformation(this.user.organizations_url).subscribe( (response:any ) => {
-      console.log(response)
       if(response.length != 0){
         this.user.organizations = response;
       }else{
