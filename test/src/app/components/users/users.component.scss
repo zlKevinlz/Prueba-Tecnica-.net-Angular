@@ -1,0 +1,124 @@
+.main_content {
+    background: #4c5253;
+    height: 100vh;
+    padding: 50px;
+
+    .btn_back {
+        position: absolute;
+    }
+
+    .btn_view {
+        position: absolute;
+        right: 50px;
+    }
+
+    .content {
+        background: #49909c;
+        border-radius: 15px;
+        padding: 30px;
+        padding-top: 40px;
+
+        .search_validation {
+            text-align: center;
+            color: black;
+            font-weight: 600;
+        }
+
+        h1 {
+            margin-bottom: 16px;
+        }
+
+        .btn_search {
+            background: #4c5253;
+        }
+
+        .table_content {
+            max-height: 72vh;
+
+            .username {
+                font-weight: 600;
+            }
+
+            .user_img {
+                width: 60px;
+                border-radius: 30px;
+            }
+
+            .icon_star {
+                position: relative;
+                top: -2px;
+            }
+        }
+    }
+}
+
+/* modal */
+
+.content_profile {
+    display: grid;
+    background: #4c5253;
+    padding: 30px;
+
+    .user_img {
+        width: 140px;
+        border-radius: 120px;
+        justify-self: center;
+    }
+
+    .username {
+        color: white;
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+        justify-self: center;
+        padding-bottom: 15px;
+        border-bottom-style: groove;
+    }
+
+    .content_information {
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+
+        .information_title {
+            font-size: 22px;
+            justify-self: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-bottom: 20px;
+        }
+
+        .accordion {
+            --bs-accordion-bg: #49909c;
+
+            .accordion-button:not(.collapsed) {
+                background-color: #3a737d;
+            }
+
+            .accordion-button {
+                font-weight: 600;
+                color: white;
+            }
+
+            .repo {
+                margin-bottom: 15px;
+                background: #4c5253;
+                color: white;
+            }
+
+            .user_img {
+                display: inline;
+                width: 100px;
+                border-radius: 60px;
+                justify-self: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .main_content {
+        padding: 15px !important;
+    }
+}
