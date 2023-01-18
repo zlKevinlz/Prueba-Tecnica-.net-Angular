@@ -1,0 +1,31 @@
+<div class="main_content">
+
+    <button mat-icon-button class="button_close" (click)="closeModal()">
+		<i class="material-icons">clear</i>
+	</button>
+    
+    <h1>Login</h1>
+
+    <form [formGroup]="loginForm">
+
+        <mat-form-field appearance="fill">
+            <mat-label>Username</mat-label>
+            <input matInput formControlName="username">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Password</mat-label>
+            <input matInput type="password" formControlName="password">
+        </mat-form-field>
+
+        <div class="user_logged" *ngIf="logged">User Logged</div>
+        <div class="message" *ngIf="message != ''">{{message}}</div>
+
+
+        <button mat-raised-button [disabled]="!loginForm.valid" color="primary" class="btn_login" (click)="login()">Login</button>
+
+        <button mat-raised-button *ngIf="logged" color="primary" (click)="signOut()">Sign out</button>
+    </form>
+
+</div>
+

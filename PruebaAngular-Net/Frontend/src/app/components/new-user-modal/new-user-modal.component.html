@@ -1,0 +1,25 @@
+<div class="main_content">
+
+    <button mat-icon-button class="button_close" (click)="closeModal()">
+		<i class="material-icons">clear</i>
+	</button>
+
+    <h1>New User</h1>
+
+    <form [formGroup]="userForm">
+
+        <mat-form-field appearance="fill">
+            <mat-label>Username</mat-label>
+            <input matInput formControlName="username">
+            <div class="error_user" *ngIf="user_in_use">Username already exists</div>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Password</mat-label>
+            <input matInput type="password" formControlName="password">
+        </mat-form-field>
+
+        <button mat-raised-button [disabled]="!userForm.valid" color="primary" (click)="createUser()">New</button>
+    </form>
+
+</div>

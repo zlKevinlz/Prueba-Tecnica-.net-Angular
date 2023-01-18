@@ -1,0 +1,31 @@
+.main_content {
+    position: relative;
+
+    .button_close {
+        position: absolute;
+        color: red;
+        top: -25px;
+        right: -20px;
+    }
+
+    form {
+        display: grid;
+
+        .btn_login {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .user_logged {
+            color: green;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .message {
+            color: red;
+            text-align: center;
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.main_content {
+    background: #57aab8;
+    height: 100vh;
+
+    h1 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .mat-tab-label .mat-tab-label-content {
+        color: black !important;
+        font-weight: 600 !important;
+    }
+
+    mat-tab{
+        background: #57AAB8;
+    }
+    
+    .btn_new {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+    }
+    
+    .table-responsive {
+        padding: 50px;
+        padding-top: 60px;
+    
+        table {
+            width: 100%;
+        }
+    }
+}
+

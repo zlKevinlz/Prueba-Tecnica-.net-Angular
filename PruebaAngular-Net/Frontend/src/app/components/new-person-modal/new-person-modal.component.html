@@ -1,0 +1,43 @@
+<div class="main_content">
+
+    <button mat-icon-button class="button_close" (click)="closeModal()">
+		<i class="material-icons">clear</i>
+	</button>
+    
+    <h1>New Person</h1>
+
+    <form [formGroup]="personForm">
+
+        <mat-form-field appearance="fill">
+            <mat-label>Names</mat-label>
+            <input matInput formControlName="names">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Surnames</mat-label>
+            <input matInput formControlName="surnames">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" >
+            <mat-label>DNI</mat-label>
+            <input matInput formControlName="DNI">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" >
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>DNI type</mat-label>
+            <mat-select formControlName="DNI_type">
+                <mat-option value="CC">CC</mat-option>
+                <mat-option value="TI">TI</mat-option>
+                <mat-option value="Passport">Passport</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <button mat-raised-button [disabled]="!personForm.valid" color="primary" (click)="createPerson()">New</button>
+    </form>
+
+</div>
