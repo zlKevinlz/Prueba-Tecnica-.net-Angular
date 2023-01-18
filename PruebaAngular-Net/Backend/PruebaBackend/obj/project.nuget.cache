@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MoUuOPgnaOl4nS0fbc6VfeCppLX4RR9hwv65j6umkRpxz19KV+rbjINZTRHJNPd55hY2N73+Q8uDs6HFwT4wzQ==",
+  "dgSpecHash": "2kgwFj3QOtH/bKttk0FsfbaOycWH0mJPqWZaPAEZ1SvpmUHumwTOqrNPpw63ycOPEA7sN/6zyJcfXv3XBPo9zg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sofik\\Documents\\GitHub\\PruebaBackend\\PruebaBackend\\PruebaBackend.csproj",
+  "projectFilePath": "C:\\Users\\sofik\\Documents\\GitHub\\Prueba-con-Api-de-git-Hub-con-Angular\\PruebaAngular-Net\\Backend\\PruebaBackend\\PruebaBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sofik\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\sofik\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

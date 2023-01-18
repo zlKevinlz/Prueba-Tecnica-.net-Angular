@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sofik\\Documents\\GitHub\\PruebaBackend\\PruebaBackend\\PruebaBackend.csproj": {}
+    "C:\\Users\\sofik\\Documents\\GitHub\\Prueba-con-Api-de-git-Hub-con-Angular\\PruebaAngular-Net\\Backend\\PruebaBackend\\PruebaBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sofik\\Documents\\GitHub\\PruebaBackend\\PruebaBackend\\PruebaBackend.csproj": {
+    "C:\\Users\\sofik\\Documents\\GitHub\\Prueba-con-Api-de-git-Hub-con-Angular\\PruebaAngular-Net\\Backend\\PruebaBackend\\PruebaBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sofik\\Documents\\GitHub\\PruebaBackend\\PruebaBackend\\PruebaBackend.csproj",
+        "projectUniqueName": "C:\\Users\\sofik\\Documents\\GitHub\\Prueba-con-Api-de-git-Hub-con-Angular\\PruebaAngular-Net\\Backend\\PruebaBackend\\PruebaBackend.csproj",
         "projectName": "PruebaBackend",
-        "projectPath": "C:\\Users\\sofik\\Documents\\GitHub\\PruebaBackend\\PruebaBackend\\PruebaBackend.csproj",
+        "projectPath": "C:\\Users\\sofik\\Documents\\GitHub\\Prueba-con-Api-de-git-Hub-con-Angular\\PruebaAngular-Net\\Backend\\PruebaBackend\\PruebaBackend.csproj",
         "packagesPath": "C:\\Users\\sofik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sofik\\Documents\\GitHub\\PruebaBackend\\PruebaBackend\\obj\\",
+        "outputPath": "C:\\Users\\sofik\\Documents\\GitHub\\Prueba-con-Api-de-git-Hub-con-Angular\\PruebaAngular-Net\\Backend\\PruebaBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sofik\\AppData\\Roaming\\NuGet\\NuGet.Config",
